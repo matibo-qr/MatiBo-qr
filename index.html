@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MatiBo s.r.o. | QR prezentácia</title>
+<style>
+  :root {
+    --primary:#6b0f1a;
+    --dark:#2f2f33;
+    --soft:#f5f5f6;
+    --line:#e6e6e8;
+  }
+  * { box-sizing:border-box; }
+  body {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#ffffff;
+    color:#222;
+    line-height:1.45;
+  }
+  .wrap {
+    max-width: 520px;
+    margin: 0 auto;
+    background:#fff;
+  }
+  .hero {
+    padding: 24px 18px 18px;
+    background: linear-gradient(180deg, #ffffff 0%, #faf8f8 100%);
+    border-bottom:1px solid var(--line);
+  }
+  .eyebrow {
+    color:var(--primary);
+    font-size:13px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    margin-bottom:8px;
+  }
+  h1 {
+    font-size:30px;
+    line-height:1.1;
+    margin:0 0 10px;
+    color:var(--dark);
+  }
+  .subtitle {
+    font-size:17px;
+    color:var(--primary);
+    font-weight:700;
+    margin:0 0 12px;
+  }
+  .intro {
+    margin:0;
+    font-size:15px;
+    color:#444;
+  }
+  .cta {
+    display:grid;
+    grid-template-columns: 1fr;
+    gap:10px;
+    padding:16px 18px 8px;
+  }
+  .btn {
+    display:block;
+    width:100%;
+    text-align:center;
+    text-decoration:none;
+    padding:15px 14px;
+    border-radius:14px;
+    font-weight:700;
+    font-size:16px;
+  }
+  .btn-primary {
+    background:var(--primary);
+    color:#fff;
+  }
+  .btn-secondary {
+    background:#fff;
+    color:var(--primary);
+    border:2px solid var(--primary);
+  }
+  .section {
+    padding:20px 18px;
+    border-bottom:1px solid var(--line);
+  }
+  .section h2 {
+    font-size:22px;
+    margin:0 0 14px;
+    color:var(--dark);
+  }
+  .cards {
+    display:grid;
+    gap:10px;
+  }
+  .card {
+    background:var(--soft);
+    border-radius:16px;
+    padding:14px;
+  }
+  .card strong {
+    display:block;
+    margin-bottom:6px;
+    color:var(--primary);
+    font-size:16px;
+  }
+  ul.checks {
+    margin:0;
+    padding-left:18px;
+  }
+  ul.checks li {
+    margin:8px 0;
+  }
+  .gallery {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+  }
+  .gallery img {
+    width:100%;
+    height:140px;
+    object-fit:cover;
+    border-radius:14px;
+    background:#eee;
+    display:block;
+  }
+  .formbox {
+    background:var(--soft);
+    border-radius:18px;
+    padding:14px;
+  }
+  label {
+    display:block;
+    margin:10px 0 6px;
+    font-size:14px;
+    font-weight:700;
+    color:#333;
+  }
+  input, textarea {
+    width:100%;
+    border:1px solid #d7d7db;
+    border-radius:12px;
+    padding:12px 12px;
+    font-size:15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#fff;
+  }
+  textarea {
+    min-height:110px;
+    resize:vertical;
+  }
+  .note {
+    font-size:12px;
+    color:#666;
+    margin-top:8px;
+  }
+  .footer {
+    padding:22px 18px 34px;
+    text-align:left;
+  }
+  .footer strong {
+    color:var(--primary);
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <div class="eyebrow">MatiBo s.r.o.</div>
+      <h1>Facility služby,<br>recepcia a upratovanie</h1>
+      <div class="subtitle">Spoľahlivá podpora chodu budov a prevádzok</div>
+      <p class="intro">Zabezpečujeme recepčné služby, administratívnu podporu, koordináciu prevádzky a upratovanie spoločných priestorov, kancelárií aj objektov.</p>
+    </section>
+
+    <div class="cta">
+      <a class="btn btn-primary" href="tel:+421911209011">Zavolať: 0911 209 011</a>
+      <a class="btn btn-primary" href="tel:+421948766800">Zavolať: 0948 766 800</a>
+      <a class="btn btn-secondary" href="mailto:matibosro@gmail.com">Napísať e-mail</a>
+    </div>
+
+    <section class="section">
+      <h2>Čomu sa venujeme</h2>
+      <div class="cards">
+        <div class="card">
+          <strong>Recepčné služby</strong>
+          Profesionálne zastrešenie recepcie, evidencia návštev, pošty a balíkov, komunikácia s nájomníkmi a návštevníkmi.
+        </div>
+        <div class="card">
+          <strong>Administratívna podpora</strong>
+          Správa dokumentácie, prevádzková evidencia, koordinácia servisných zásahov a dodávateľov.
+        </div>
+        <div class="card">
+          <strong>Upratovacie služby</strong>
+          Pravidelné aj jednorazové upratovanie spoločných priestorov, kancelárií, recepcií a sociálnych zariadení.
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Prečo si vybrať nás</h2>
+      <ul class="checks">
+        <li>osobný a zodpovedný prístup</li>
+        <li>skúsenosti z prevádzky budov a facility služieb</li>
+        <li>dôraz na detail, čistotu a reprezentáciu</li>
+        <li>spoľahlivá komunikácia a prevádzková podpora</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Fotografie</h2>
+      <div class="gallery">
+        <img src="images/photo_1.jpg" alt="MatiBo fotografia 1"><img src="images/photo_2.jpg" alt="MatiBo fotografia 2"><img src="images/photo_3.jpg" alt="MatiBo fotografia 3"><img src="images/photo_4.jpg" alt="MatiBo fotografia 4"><img src="images/photo_5.jpg" alt="MatiBo fotografia 5"><img src="images/photo_6.jpg" alt="MatiBo fotografia 6">
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Rýchly dopyt</h2>
+      <div class="formbox">
+        <form action="mailto:matibosro@gmail.com" method="post" enctype="text/plain">
+          <label for="meno">Meno / firma</label>
+          <input id="meno" name="Meno alebo firma" type="text" placeholder="Vaše meno alebo názov firmy">
+
+          <label for="kontakt">Telefón alebo e-mail</label>
+          <input id="kontakt" name="Kontakt" type="text" placeholder="Ako vás môžeme kontaktovať">
+
+          <label for="sluzba">O akú službu máte záujem</label>
+          <input id="sluzba" name="Záujem o službu" type="text" placeholder="Recepcia, upratovanie, facility služby...">
+
+          <label for="sprava">Správa</label>
+          <textarea id="sprava" name="Správa" placeholder="Napíšte stručne, čo potrebujete"></textarea>
+
+          <button class="btn btn-primary" type="submit" style="border:none; cursor:pointer; margin-top:12px;">Odoslať dopyt</button>
+        </form>
+        <div class="note">Po kliknutí sa otvorí e-mailová aplikácia s predvyplneným dopytom.</div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <strong>Mária Brinská</strong><br>
+      Facility &amp; Operations Management<br><br>
+      Telefón: +421 911 209 011, +421 948 766 800<br>
+      E-mail: matibosro@gmail.com
+    </section>
+  </div>
+</body>
+</html>
